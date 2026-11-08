@@ -3,42 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AI Bildgenerator</title>
+    <title>Creative Plattform - AI Bildgenerator</title>
     <!-- Ladda Supabase JS Client -->
     <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
     <style>
         body { font-family: sans-serif; background: #0f172a; color: #f8fafc; display: flex; justify-content: center; align-items: center; min-height: 100vh; margin: 0; }
-        .card { background: #1e293b; padding: 2rem; border-radius: 1rem; width: 100%; max-width: 500px; box-shadow: 0 4px 6px rgba(0,0,0,0.3); }
+        .card { background: #1e293b; padding: 2rem; border-radius: 1rem; width: 100%; max-width: 550px; box-shadow: 0 4px 6px rgba(0,0,0,0.3); }
         h1 { text-align: center; color: #38bdf8; margin-bottom: 1.5rem; }
         label { display: block; margin-bottom: 0.5rem; font-weight: bold; }
         textarea { width: 100%; height: 120px; padding: 0.75rem; border-radius: 0.5rem; border: 1px solid #334155; background: #0f172a; color: white; resize: vertical; margin-bottom: 1.5rem; box-sizing: border-box; }
         button { width: 100%; padding: 0.75rem; background: #38bdf8; color: #0f172a; border: none; border-radius: 0.5rem; font-weight: bold; cursor: pointer; font-size: 1rem; }
         button:hover { background: #7dd3fc; }
         #status { margin-top: 1rem; text-align: center; font-weight: bold; }
+        #resultat { margin-top: 1.5rem; text-align: center; }
+        img { max-width: 100%; border-radius: 0.5rem; margin-top: 1rem; }
     </style>
 </head>
 <body>
     <div class="card">
-        <h1>🎨 AI Bildgenerator</h1>
+        <h1>🎨 Creative Plattform</h1>
         
         <label for="prompt">Din Prompt:</label>
-        <textarea id="prompt" placeholder="Beskriv bilden du vill generera..."></textarea>
+        <textarea id="prompt" placeholder="Beskriv bilden du vill generera med Flux/Llama..."></textarea>
         
-        <button onclick="skickaTillSupabase()">Generera & Spara</button>
+        <button onclick="genereraBild()">Generera Bild</button>
         
         <div id="status"></div>
+        <div id="resultat"></div>
     </div>
 
     <script>
-        // Dina Supabase-uppgifter
         const SUPABASE_URL = 'https://nvmcqrgorswwjldlqaqi.supabase.co';
         const SUPABASE_ANON_KEY = 'sb_publishable__Ew3Su-rdIHaXRfag7oWVg_-jWSDN-j';
-        
         const supabase = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
 
-        async function skickaTillSupabase() {
+        // Byt ut mot din publika Cloudflare-tunnel från Vast.ai
+        const BACKEND_URL = 'DIN_CLOUDFLARE_URL';
+
+        async function genereraBild() {
             const prompt = document.getElementById('prompt').value;
             const statusDiv = document.getElementById('status');
+            const resultatDiv = document.getElementById('resultat');
             
             if (!prompt.trim()) {
                 statusDiv.style.color = '#f87171';
@@ -47,18 +52,26 @@
             }
 
             statusDiv.style.color = '#38bdf8';
-            statusDiv.innerText = 'Sparar till Supabase...';
+            statusDiv.innerText = '⏳ Skickar prompt till GPU (Vast.ai)...';
+            resultatDiv.innerHTML = '';
 
             try {
-                const { data, error } = await supabase
-                    .from('prompts')
-                    .insert([{ prompt_text: prompt, status: 'pending' }]);
+                // 1. Spara till Supabase
+                await supabase.from('prompts').insert([{ prompt_text: prompt, status: 'processing' }]);
 
-                if (error) throw error;
+                // 2. Anropa Vast.ai via Cloudflare
+                const response = await fetch(`${BACKEND_URL}/generate`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ prompt_text: prompt })
+                });
+
+                const data = await response.json();
+                if (!data.success) throw new Error('Kunde inte generera bild');
 
                 statusDiv.style.color = '#4ade80';
-                statusDiv.innerText = '✅ Prompt sparad i Supabase!';
-                document.getElementById('prompt').value = '';
+                statusDiv.innerText = '✅ Bild genererad framgångsrikt!';
+                resultatDiv.innerHTML = `<p>Resultat:</p><img src="${data.image_url}" alt="Genererad AI-bild">`;
 
             } catch (err) {
                 statusDiv.style.color = '#f87171';
