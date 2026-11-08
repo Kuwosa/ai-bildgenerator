@@ -30,12 +30,12 @@
     </div>
 
     <script>
-        // Initiera Supabase (byt ut mot dina egna nycklar från ditt Supabase-konto när du är redo)
-        const SUPABASE_URL = 'DIN_SUPABASE_URL';
-        const SUPABASE_ANON_KEY = 'DIN_SUPABASE_ANON_KEY';
+        // 1. Koppla in dina Supabase-uppgifter här (från din Supabase Dashboard -> Settings -> API)
+        const SUPABASE_URL = 'DIN_SUPABASE_URL_HÄR';
+        const SUPABASE_ANON_KEY = 'DIN_SUPABASE_ANON_KEY_HÄR';
         
-        // Skapa klienten om nycklarna är inlagda
-        // const supabase = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+        // Initiera Supabase-klienten
+        const supabase = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
 
         async function skickaTillSupabase() {
             const prompt = document.getElementById('prompt').value;
@@ -48,23 +48,23 @@
             }
 
             statusDiv.style.color = '#38bdf8';
-            statusDiv.innerText = 'Sparar prompt och anropar AI...';
+            statusDiv.innerText = 'Sparar till Supabase och anropar AI...';
 
             try {
-                /* 
-                  Här kopplar vi anropet till Supabase-databasen eller din Edge Function 
-                  Exempel: 
-                  const { data, error } = await supabase.from('prompts').insert([{ prompt_text: prompt }]);
-                */
+                // Exempel: Spara prompten till en tabell som heter 'prompts' i din Supabase-databas
+                const { data, error } = await supabase
+                    .from('prompts')
+                    .insert([{ prompt_text: prompt, status: 'pending' }]);
 
-                setTimeout(() => {
-                    statusDiv.style.color = '#4ade80';
-                    statusDiv.innerText = '✅ Prompt sparad och bildgenerering startad!';
-                }, 1000);
+                if (error) throw error;
+
+                statusDiv.style.color = '#4ade80';
+                statusDiv.innerText = '✅ Prompt sparad i databasen!';
+                document.getElementById('prompt').value = '';
 
             } catch (err) {
                 statusDiv.style.color = '#f87171';
-                statusDiv.innerText = '❌ Fel: ' + err.message;
+                statusDiv.innerText = '❌ Fel vid sparande: ' + err.message;
             }
         }
     </script>
