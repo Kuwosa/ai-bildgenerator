@@ -3640,3 +3640,1732 @@ Successful responses: 1/1
   "url": "https://192.234.50.233:7982"
 }
 #######################################################
+2026-11-08 04:45:20[DEBUG] Performing healthcheck on /health
+2026-11-08 04:45:20[DEBUG] Healthcheck successful
+2026-11-08 04:45:23[DEBUG] 
+#################### Worker Status ####################
+{
+  "id": 59663465,
+  "mtoken": "d09c1a8...",
+  "version": "1.1.0",
+  "loadtime": 20.681025743484497,
+  "cur_load": 0,
+  "rej_load": 0,
+  "new_load": 0,
+  "error_msg": "",
+  "max_perf": 49.95966829375204,
+  "cur_perf": 0,
+  "cur_capacity": 0,
+  "max_capacity": 0,
+  "num_requests_working": 0,
+  "num_requests_recieved": 0,
+  "additional_disk_usage": -1.1444091796875e-05,
+  "disk_usage": 1.2565345764160156,
+  "working_request_idxs": [],
+  "url": "https://192.234.50.233:7982"
+}
+#######################################################
+2026-11-08 04:45:30[DEBUG] Performing healthcheck on /health
+2026-11-08 04:45:30[DEBUG] Healthcheck successful
+2026-11-08 04:45:33[DEBUG] 
+#################### Worker Status ####################
+{
+  "id": 59663465,
+  "mtoken": "d09c1a8...",
+  "version": "1.1.0",
+  "loadtime": 20.681025743484497,
+  "cur_load": 0,
+  "rej_load": 0,
+  "new_load": 0,
+  "error_msg": "",
+  "max_perf": 49.95966829375204,
+  "cur_perf": 0,
+  "cur_capacity": 0,
+  "max_capacity": 0,
+  "num_requests_working": 0,
+  "num_requests_recieved": 0,
+  "additional_disk_usage": 0.0,
+  "disk_usage": 1.2565345764160156,
+  "working_request_idxs": [],
+  "url": "https://192.234.50.233:7982"
+}
+#######################################################
+2026-11-08 04:45:40[DEBUG] Performing healthcheck on /health
+2026-11-08 04:45:40[DEBUG] Healthcheck successful
+2026-11-08 04:45:44[DEBUG] 
+#################### Worker Status ####################
+{
+  "id": 59663465,
+  "mtoken": "d09c1a8...",
+  "version": "1.1.0",
+  "loadtime": 20.681025743484497,
+  "cur_load": 0,
+  "rej_load": 0,
+  "new_load": 0,
+  "error_msg": "",
+  "max_perf": 49.95966829375204,
+  "cur_perf": 0,
+  "cur_capacity": 0,
+  "max_capacity": 0,
+  "num_requests_working": 0,
+  "num_requests_recieved": 0,
+  "additional_disk_usage": 0.0,
+  "disk_usage": 1.2565345764160156,
+  "working_request_idxs": [],
+  "url": "https://192.234.50.233:7982"
+}
+#######################################################
+2026-11-08 04:45:50[DEBUG] Performing healthcheck on /health
+2026-11-08 04:45:50[DEBUG] Healthcheck successful
+2026-11-08 04:45:54[DEBUG] 
+#################### Worker Status ####################
+{
+  "id": 59663465,
+  "mtoken": "d09c1a8...",
+  "version": "1.1.0",
+  "loadtime": 20.681025743484497,
+  "cur_load": 0,
+  "rej_load": 0,
+  "new_load": 0,
+  "error_msg": "",
+  "max_perf": 49.95966829375204,
+  "cur_perf": 0,
+  "cur_capacity": 0,
+  "max_capacity": 0,
+  "num_requests_working": 0,
+  "num_requests_recieved": 0,
+  "additional_disk_usage": 4.57763671875e-05,
+  "disk_usage": 1.2565803527832031,
+  "working_request_idxs": [],
+  "url": "https://192.234.50.233:7982"
+}
+#######################################################
+2026-11-08 04:46:00[DEBUG] Performing healthcheck on /health
+2026-11-08 04:46:00[DEBUG] Healthcheck successful
+2026-11-08 04:46:04[DEBUG] 
+#################### Worker Status ####################
+{
+  "id": 59663465,
+  "mtoken": "d09c1a8...",
+  "version": "1.1.0",
+  "loadtime": 20.681025743484497,
+  "cur_load": 0,
+  "rej_load": 0,
+  "new_load": 0,
+  "error_msg": "",
+  "max_perf": 49.95966829375204,
+  "cur_perf": 0,
+  "cur_capacity": 0,
+  "max_capacity": 0,
+  "num_requests_working": 0,
+  "num_requests_recieved": 0,
+  "additional_disk_usage": 0.0,
+  "disk_usage": 1.2565803527832031,
+  "working_request_idxs": [],
+  "url": "https://192.234.50.233:7982"
+}
+#######################################################
+2026-11-08 04:46:10[DEBUG] Performing healthcheck on /health
+2026-11-08 04:46:10[DEBUG] Healthcheck successful
+2026-11-08 04:46:14[DEBUG] 
+#################### Worker Status ####################
+{
+  "id": 59663465,
+  "mtoken": "d09c1a8...",
+  "version": "1.1.0",
+  "loadtime": 20.681025743484497,
+  "cur_load": 0,
+  "rej_load": 0,
+  "new_load": 0,
+  "error_msg": "",
+  "max_perf": 49.95966829375204,
+  "cur_perf": 0,
+  "cur_capacity": 0,
+  "max_capacity": 0,
+  "num_requests_working": 0,
+  "num_requests_recieved": 0,
+  "additional_disk_usage": 0.0,
+  "disk_usage": 1.2565803527832031,
+  "working_request_idxs": [],
+  "url": "https://192.234.50.233:7982"
+}
+#######################################################
+2026-11-08 04:46:20[DEBUG] Performing healthcheck on /health
+2026-11-08 04:46:20[DEBUG] Healthcheck successful
+2026-11-08 04:46:25[DEBUG] 
+#################### Worker Status ####################
+{
+  "id": 59663465,
+  "mtoken": "d09c1a8...",
+  "version": "1.1.0",
+  "loadtime": 20.681025743484497,
+  "cur_load": 0,
+  "rej_load": 0,
+  "new_load": 0,
+  "error_msg": "",
+  "max_perf": 49.95966829375204,
+  "cur_perf": 0,
+  "cur_capacity": 0,
+  "max_capacity": 0,
+  "num_requests_working": 0,
+  "num_requests_recieved": 0,
+  "additional_disk_usage": 0.0,
+  "disk_usage": 1.2565803527832031,
+  "working_request_idxs": [],
+  "url": "https://192.234.50.233:7982"
+}
+#######################################################
+2026-11-08 04:46:30[DEBUG] Performing healthcheck on /health
+2026-11-08 04:46:30[DEBUG] Healthcheck successful
+2026-11-08 04:46:35[DEBUG] 
+#################### Worker Status ####################
+{
+  "id": 59663465,
+  "mtoken": "d09c1a8...",
+  "version": "1.1.0",
+  "loadtime": 20.681025743484497,
+  "cur_load": 0,
+  "rej_load": 0,
+  "new_load": 0,
+  "error_msg": "",
+  "max_perf": 49.95966829375204,
+  "cur_perf": 0,
+  "cur_capacity": 0,
+  "max_capacity": 0,
+  "num_requests_working": 0,
+  "num_requests_recieved": 0,
+  "additional_disk_usage": 0.0,
+  "disk_usage": 1.2565803527832031,
+  "working_request_idxs": [],
+  "url": "https://192.234.50.233:7982"
+}
+#######################################################
+2026-11-08 04:46:40[DEBUG] Performing healthcheck on /health
+2026-11-08 04:46:40[DEBUG] Healthcheck successful
+2026-11-08 04:46:45[DEBUG] 
+#################### Worker Status ####################
+{
+  "id": 59663465,
+  "mtoken": "d09c1a8...",
+  "version": "1.1.0",
+  "loadtime": 20.681025743484497,
+  "cur_load": 0,
+  "rej_load": 0,
+  "new_load": 0,
+  "error_msg": "",
+  "max_perf": 49.95966829375204,
+  "cur_perf": 0,
+  "cur_capacity": 0,
+  "max_capacity": 0,
+  "num_requests_working": 0,
+  "num_requests_recieved": 0,
+  "additional_disk_usage": 0.0,
+  "disk_usage": 1.2565803527832031,
+  "working_request_idxs": [],
+  "url": "https://192.234.50.233:7982"
+}
+#######################################################
+2026-11-08 04:46:50[DEBUG] Performing healthcheck on /health
+2026-11-08 04:46:50[DEBUG] Healthcheck successful
+2026-11-08 04:46:55[DEBUG] 
+#################### Worker Status ####################
+{
+  "id": 59663465,
+  "mtoken": "d09c1a8...",
+  "version": "1.1.0",
+  "loadtime": 20.681025743484497,
+  "cur_load": 0,
+  "rej_load": 0,
+  "new_load": 0,
+  "error_msg": "",
+  "max_perf": 49.95966829375204,
+  "cur_perf": 0,
+  "cur_capacity": 0,
+  "max_capacity": 0,
+  "num_requests_working": 0,
+  "num_requests_recieved": 0,
+  "additional_disk_usage": 0.0,
+  "disk_usage": 1.2565803527832031,
+  "working_request_idxs": [],
+  "url": "https://192.234.50.233:7982"
+}
+#######################################################
+2026-11-08 04:47:00[DEBUG] Performing healthcheck on /health
+2026-11-08 04:47:00[DEBUG] Healthcheck successful
+2026-11-08 04:47:06[DEBUG] 
+#################### Worker Status ####################
+{
+  "id": 59663465,
+  "mtoken": "d09c1a8...",
+  "version": "1.1.0",
+  "loadtime": 20.681025743484497,
+  "cur_load": 0,
+  "rej_load": 0,
+  "new_load": 0,
+  "error_msg": "",
+  "max_perf": 49.95966829375204,
+  "cur_perf": 0,
+  "cur_capacity": 0,
+  "max_capacity": 0,
+  "num_requests_working": 0,
+  "num_requests_recieved": 0,
+  "additional_disk_usage": 0.0,
+  "disk_usage": 1.2565803527832031,
+  "working_request_idxs": [],
+  "url": "https://192.234.50.233:7982"
+}
+#######################################################
+2026-11-08 04:47:10[DEBUG] Performing healthcheck on /health
+2026-11-08 04:47:10[DEBUG] Healthcheck successful
+2026-11-08 04:47:17[DEBUG] 
+#################### Worker Status ####################
+{
+  "id": 59663465,
+  "mtoken": "d09c1a8...",
+  "version": "1.1.0",
+  "loadtime": 20.681025743484497,
+  "cur_load": 0,
+  "rej_load": 0,
+  "new_load": 0,
+  "error_msg": "",
+  "max_perf": 49.95966829375204,
+  "cur_perf": 0,
+  "cur_capacity": 0,
+  "max_capacity": 0,
+  "num_requests_working": 0,
+  "num_requests_recieved": 0,
+  "additional_disk_usage": 0.0,
+  "disk_usage": 1.2565803527832031,
+  "working_request_idxs": [],
+  "url": "https://192.234.50.233:7982"
+}
+#######################################################
+2026-11-08 04:47:20[DEBUG] Performing healthcheck on /health
+2026-11-08 04:47:20[DEBUG] Healthcheck successful
+2026-11-08 04:47:27[DEBUG] 
+#################### Worker Status ####################
+{
+  "id": 59663465,
+  "mtoken": "d09c1a8...",
+  "version": "1.1.0",
+  "loadtime": 20.681025743484497,
+  "cur_load": 0,
+  "rej_load": 0,
+  "new_load": 0,
+  "error_msg": "",
+  "max_perf": 49.95966829375204,
+  "cur_perf": 0,
+  "cur_capacity": 0,
+  "max_capacity": 0,
+  "num_requests_working": 0,
+  "num_requests_recieved": 0,
+  "additional_disk_usage": 0.0,
+  "disk_usage": 1.2565803527832031,
+  "working_request_idxs": [],
+  "url": "https://192.234.50.233:7982"
+}
+#######################################################
+2026-11-08 04:47:30[DEBUG] Performing healthcheck on /health
+2026-11-08 04:47:30[DEBUG] Healthcheck successful
+2026-11-08 04:47:37[DEBUG] 
+#################### Worker Status ####################
+{
+  "id": 59663465,
+  "mtoken": "d09c1a8...",
+  "version": "1.1.0",
+  "loadtime": 20.681025743484497,
+  "cur_load": 0,
+  "rej_load": 0,
+  "new_load": 0,
+  "error_msg": "",
+  "max_perf": 49.95966829375204,
+  "cur_perf": 0,
+  "cur_capacity": 0,
+  "max_capacity": 0,
+  "num_requests_working": 0,
+  "num_requests_recieved": 0,
+  "additional_disk_usage": 0.0,
+  "disk_usage": 1.2565803527832031,
+  "working_request_idxs": [],
+  "url": "https://192.234.50.233:7982"
+}
+#######################################################
+2026-11-08 04:47:40[DEBUG] Performing healthcheck on /health
+2026-11-08 04:47:40[DEBUG] Healthcheck successful
+2026-11-08 04:47:47[DEBUG] 
+#################### Worker Status ####################
+{
+  "id": 59663465,
+  "mtoken": "d09c1a8...",
+  "version": "1.1.0",
+  "loadtime": 20.681025743484497,
+  "cur_load": 0,
+  "rej_load": 0,
+  "new_load": 0,
+  "error_msg": "",
+  "max_perf": 49.95966829375204,
+  "cur_perf": 0,
+  "cur_capacity": 0,
+  "max_capacity": 0,
+  "num_requests_working": 0,
+  "num_requests_recieved": 0,
+  "additional_disk_usage": 0.0,
+  "disk_usage": 1.2565803527832031,
+  "working_request_idxs": [],
+  "url": "https://192.234.50.233:7982"
+}
+#######################################################
+2026-11-08 04:47:50[DEBUG] Performing healthcheck on /health
+2026-11-08 04:47:50[DEBUG] Healthcheck successful
+2026-11-08 04:47:57[DEBUG] 
+#################### Worker Status ####################
+{
+  "id": 59663465,
+  "mtoken": "d09c1a8...",
+  "version": "1.1.0",
+  "loadtime": 20.681025743484497,
+  "cur_load": 0,
+  "rej_load": 0,
+  "new_load": 0,
+  "error_msg": "",
+  "max_perf": 49.95966829375204,
+  "cur_perf": 0,
+  "cur_capacity": 0,
+  "max_capacity": 0,
+  "num_requests_working": 0,
+  "num_requests_recieved": 0,
+  "additional_disk_usage": 0.0,
+  "disk_usage": 1.2565803527832031,
+  "working_request_idxs": [],
+  "url": "https://192.234.50.233:7982"
+}
+#######################################################
+2026-11-08 04:48:00[DEBUG] Performing healthcheck on /health
+2026-11-08 04:48:00[DEBUG] Healthcheck successful
+2026-11-08 04:48:08[DEBUG] 
+#################### Worker Status ####################
+{
+  "id": 59663465,
+  "mtoken": "d09c1a8...",
+  "version": "1.1.0",
+  "loadtime": 20.681025743484497,
+  "cur_load": 0,
+  "rej_load": 0,
+  "new_load": 0,
+  "error_msg": "",
+  "max_perf": 49.95966829375204,
+  "cur_perf": 0,
+  "cur_capacity": 0,
+  "max_capacity": 0,
+  "num_requests_working": 0,
+  "num_requests_recieved": 0,
+  "additional_disk_usage": 0.0,
+  "disk_usage": 1.2565803527832031,
+  "working_request_idxs": [],
+  "url": "https://192.234.50.233:7982"
+}
+#######################################################
+2026-11-08 04:48:10[DEBUG] Performing healthcheck on /health
+2026-11-08 04:48:10[DEBUG] Healthcheck successful
+2026-11-08 04:48:18[DEBUG] 
+#################### Worker Status ####################
+{
+  "id": 59663465,
+  "mtoken": "d09c1a8...",
+  "version": "1.1.0",
+  "loadtime": 20.681025743484497,
+  "cur_load": 0,
+  "rej_load": 0,
+  "new_load": 0,
+  "error_msg": "",
+  "max_perf": 49.95966829375204,
+  "cur_perf": 0,
+  "cur_capacity": 0,
+  "max_capacity": 0,
+  "num_requests_working": 0,
+  "num_requests_recieved": 0,
+  "additional_disk_usage": 0.0,
+  "disk_usage": 1.2565803527832031,
+  "working_request_idxs": [],
+  "url": "https://192.234.50.233:7982"
+}
+#######################################################
+2026-11-08 04:48:20[DEBUG] Performing healthcheck on /health
+2026-11-08 04:48:20[DEBUG] Healthcheck successful
+2026-11-08 04:48:28[DEBUG] 
+#################### Worker Status ####################
+{
+  "id": 59663465,
+  "mtoken": "d09c1a8...",
+  "version": "1.1.0",
+  "loadtime": 20.681025743484497,
+  "cur_load": 0,
+  "rej_load": 0,
+  "new_load": 0,
+  "error_msg": "",
+  "max_perf": 49.95966829375204,
+  "cur_perf": 0,
+  "cur_capacity": 0,
+  "max_capacity": 0,
+  "num_requests_working": 0,
+  "num_requests_recieved": 0,
+  "additional_disk_usage": 0.0,
+  "disk_usage": 1.2565803527832031,
+  "working_request_idxs": [],
+  "url": "https://192.234.50.233:7982"
+}
+#######################################################
+2026-11-08 04:48:30[DEBUG] Performing healthcheck on /health
+2026-11-08 04:48:30[DEBUG] Healthcheck successful
+2026-11-08 04:48:38[DEBUG] 
+#################### Worker Status ####################
+{
+  "id": 59663465,
+  "mtoken": "d09c1a8...",
+  "version": "1.1.0",
+  "loadtime": 20.681025743484497,
+  "cur_load": 0,
+  "rej_load": 0,
+  "new_load": 0,
+  "error_msg": "",
+  "max_perf": 49.95966829375204,
+  "cur_perf": 0,
+  "cur_capacity": 0,
+  "max_capacity": 0,
+  "num_requests_working": 0,
+  "num_requests_recieved": 0,
+  "additional_disk_usage": 0.0,
+  "disk_usage": 1.2565803527832031,
+  "working_request_idxs": [],
+  "url": "https://192.234.50.233:7982"
+}
+#######################################################
+2026-11-08 04:48:40[DEBUG] Performing healthcheck on /health
+2026-11-08 04:48:40[DEBUG] Healthcheck successful
+2026-11-08 04:48:49[DEBUG] 
+#################### Worker Status ####################
+{
+  "id": 59663465,
+  "mtoken": "d09c1a8...",
+  "version": "1.1.0",
+  "loadtime": 20.681025743484497,
+  "cur_load": 0,
+  "rej_load": 0,
+  "new_load": 0,
+  "error_msg": "",
+  "max_perf": 49.95966829375204,
+  "cur_perf": 0,
+  "cur_capacity": 0,
+  "max_capacity": 0,
+  "num_requests_working": 0,
+  "num_requests_recieved": 0,
+  "additional_disk_usage": 0.0,
+  "disk_usage": 1.2565803527832031,
+  "working_request_idxs": [],
+  "url": "https://192.234.50.233:7982"
+}
+#######################################################
+2026-11-08 04:48:50[DEBUG] Performing healthcheck on /health
+2026-11-08 04:48:50[DEBUG] Healthcheck successful
+2026-11-08 04:48:59[DEBUG] 
+#################### Worker Status ####################
+{
+  "id": 59663465,
+  "mtoken": "d09c1a8...",
+  "version": "1.1.0",
+  "loadtime": 20.681025743484497,
+  "cur_load": 0,
+  "rej_load": 0,
+  "new_load": 0,
+  "error_msg": "",
+  "max_perf": 49.95966829375204,
+  "cur_perf": 0,
+  "cur_capacity": 0,
+  "max_capacity": 0,
+  "num_requests_working": 0,
+  "num_requests_recieved": 0,
+  "additional_disk_usage": -9.1552734375e-05,
+  "disk_usage": 1.2564888000488281,
+  "working_request_idxs": [],
+  "url": "https://192.234.50.233:7982"
+}
+#######################################################
+2026-11-08 04:49:00[DEBUG] Performing healthcheck on /health
+2026-11-08 04:49:00[DEBUG] Healthcheck successful
+2026-11-08 04:49:09[DEBUG] 
+#################### Worker Status ####################
+{
+  "id": 59663465,
+  "mtoken": "d09c1a8...",
+  "version": "1.1.0",
+  "loadtime": 20.681025743484497,
+  "cur_load": 0,
+  "rej_load": 0,
+  "new_load": 0,
+  "error_msg": "",
+  "max_perf": 49.95966829375204,
+  "cur_perf": 0,
+  "cur_capacity": 0,
+  "max_capacity": 0,
+  "num_requests_working": 0,
+  "num_requests_recieved": 0,
+  "additional_disk_usage": 0.0,
+  "disk_usage": 1.2564888000488281,
+  "working_request_idxs": [],
+  "url": "https://192.234.50.233:7982"
+}
+#######################################################
+2026-11-08 04:49:10[DEBUG] Performing healthcheck on /health
+2026-11-08 04:49:10[DEBUG] Healthcheck successful
+2026-11-08 04:49:19[DEBUG] 
+#################### Worker Status ####################
+{
+  "id": 59663465,
+  "mtoken": "d09c1a8...",
+  "version": "1.1.0",
+  "loadtime": 20.681025743484497,
+  "cur_load": 0,
+  "rej_load": 0,
+  "new_load": 0,
+  "error_msg": "",
+  "max_perf": 49.95966829375204,
+  "cur_perf": 0,
+  "cur_capacity": 0,
+  "max_capacity": 0,
+  "num_requests_working": 0,
+  "num_requests_recieved": 0,
+  "additional_disk_usage": 0.0,
+  "disk_usage": 1.2564888000488281,
+  "working_request_idxs": [],
+  "url": "https://192.234.50.233:7982"
+}
+#######################################################
+2026-11-08 04:49:20[DEBUG] Performing healthcheck on /health
+2026-11-08 04:49:21[DEBUG] Healthcheck successful
+2026-11-08 04:49:30[DEBUG] 
+#################### Worker Status ####################
+{
+  "id": 59663465,
+  "mtoken": "d09c1a8...",
+  "version": "1.1.0",
+  "loadtime": 20.681025743484497,
+  "cur_load": 0,
+  "rej_load": 0,
+  "new_load": 0,
+  "error_msg": "",
+  "max_perf": 49.95966829375204,
+  "cur_perf": 0,
+  "cur_capacity": 0,
+  "max_capacity": 0,
+  "num_requests_working": 0,
+  "num_requests_recieved": 0,
+  "additional_disk_usage": 2.288818359375e-05,
+  "disk_usage": 1.2565116882324219,
+  "working_request_idxs": [],
+  "url": "https://192.234.50.233:7982"
+}
+#######################################################
+2026-11-08 04:49:31[DEBUG] Performing healthcheck on /health
+2026-11-08 04:49:31[DEBUG] Healthcheck successful
+2026-11-08 04:49:40[DEBUG] 
+#################### Worker Status ####################
+{
+  "id": 59663465,
+  "mtoken": "d09c1a8...",
+  "version": "1.1.0",
+  "loadtime": 20.681025743484497,
+  "cur_load": 0,
+  "rej_load": 0,
+  "new_load": 0,
+  "error_msg": "",
+  "max_perf": 49.95966829375204,
+  "cur_perf": 0,
+  "cur_capacity": 0,
+  "max_capacity": 0,
+  "num_requests_working": 0,
+  "num_requests_recieved": 0,
+  "additional_disk_usage": 7.62939453125e-06,
+  "disk_usage": 1.2565193176269531,
+  "working_request_idxs": [],
+  "url": "https://192.234.50.233:7982"
+}
+#######################################################
+2026-11-08 04:49:41[DEBUG] Performing healthcheck on /health
+2026-11-08 04:49:41[DEBUG] Healthcheck successful
+2026-11-08 04:49:50[DEBUG] 
+#################### Worker Status ####################
+{
+  "id": 59663465,
+  "mtoken": "d09c1a8...",
+  "version": "1.1.0",
+  "loadtime": 20.681025743484497,
+  "cur_load": 0,
+  "rej_load": 0,
+  "new_load": 0,
+  "error_msg": "",
+  "max_perf": 49.95966829375204,
+  "cur_perf": 0,
+  "cur_capacity": 0,
+  "max_capacity": 0,
+  "num_requests_working": 0,
+  "num_requests_recieved": 0,
+  "additional_disk_usage": 0.0,
+  "disk_usage": 1.2565193176269531,
+  "working_request_idxs": [],
+  "url": "https://192.234.50.233:7982"
+}
+#######################################################
+2026-11-08 04:49:51[DEBUG] Performing healthcheck on /health
+2026-11-08 04:49:51[DEBUG] Healthcheck successful
+2026-11-08 04:50:00[DEBUG] 
+#################### Worker Status ####################
+{
+  "id": 59663465,
+  "mtoken": "d09c1a8...",
+  "version": "1.1.0",
+  "loadtime": 20.681025743484497,
+  "cur_load": 0,
+  "rej_load": 0,
+  "new_load": 0,
+  "error_msg": "",
+  "max_perf": 49.95966829375204,
+  "cur_perf": 0,
+  "cur_capacity": 0,
+  "max_capacity": 0,
+  "num_requests_working": 0,
+  "num_requests_recieved": 0,
+  "additional_disk_usage": 0.0,
+  "disk_usage": 1.2565193176269531,
+  "working_request_idxs": [],
+  "url": "https://192.234.50.233:7982"
+}
+#######################################################
+2026-11-08 04:50:01[DEBUG] Performing healthcheck on /health
+2026-11-08 04:50:01[DEBUG] Healthcheck successful
+2026-11-08 04:50:11[DEBUG] Performing healthcheck on /health
+2026-11-08 04:50:11[DEBUG] Healthcheck successful
+2026-11-08 04:50:11[DEBUG] 
+#################### Worker Status ####################
+{
+  "id": 59663465,
+  "mtoken": "d09c1a8...",
+  "version": "1.1.0",
+  "loadtime": 20.681025743484497,
+  "cur_load": 0,
+  "rej_load": 0,
+  "new_load": 0,
+  "error_msg": "",
+  "max_perf": 49.95966829375204,
+  "cur_perf": 0,
+  "cur_capacity": 0,
+  "max_capacity": 0,
+  "num_requests_working": 0,
+  "num_requests_recieved": 0,
+  "additional_disk_usage": 0.0,
+  "disk_usage": 1.2565193176269531,
+  "working_request_idxs": [],
+  "url": "https://192.234.50.233:7982"
+}
+#######################################################
+2026-11-08 04:50:21[DEBUG] Performing healthcheck on /health
+2026-11-08 04:50:21[DEBUG] Healthcheck successful
+2026-11-08 04:50:21[DEBUG] 
+#################### Worker Status ####################
+{
+  "id": 59663465,
+  "mtoken": "d09c1a8...",
+  "version": "1.1.0",
+  "loadtime": 20.681025743484497,
+  "cur_load": 0,
+  "rej_load": 0,
+  "new_load": 0,
+  "error_msg": "",
+  "max_perf": 49.95966829375204,
+  "cur_perf": 0,
+  "cur_capacity": 0,
+  "max_capacity": 0,
+  "num_requests_working": 0,
+  "num_requests_recieved": 0,
+  "additional_disk_usage": 0.0,
+  "disk_usage": 1.2565193176269531,
+  "working_request_idxs": [],
+  "url": "https://192.234.50.233:7982"
+}
+#######################################################
+2026-11-08 04:50:31[DEBUG] Performing healthcheck on /health
+2026-11-08 04:50:31[DEBUG] Healthcheck successful
+2026-11-08 04:50:31[DEBUG] 
+#################### Worker Status ####################
+{
+  "id": 59663465,
+  "mtoken": "d09c1a8...",
+  "version": "1.1.0",
+  "loadtime": 20.681025743484497,
+  "cur_load": 0,
+  "rej_load": 0,
+  "new_load": 0,
+  "error_msg": "",
+  "max_perf": 49.95966829375204,
+  "cur_perf": 0,
+  "cur_capacity": 0,
+  "max_capacity": 0,
+  "num_requests_working": 0,
+  "num_requests_recieved": 0,
+  "additional_disk_usage": 0.0,
+  "disk_usage": 1.2565193176269531,
+  "working_request_idxs": [],
+  "url": "https://192.234.50.233:7982"
+}
+#######################################################
+2026-11-08 04:50:41[DEBUG] Performing healthcheck on /health
+2026-11-08 04:50:41[DEBUG] Healthcheck successful
+2026-11-08 04:50:41[DEBUG] 
+#################### Worker Status ####################
+{
+  "id": 59663465,
+  "mtoken": "d09c1a8...",
+  "version": "1.1.0",
+  "loadtime": 20.681025743484497,
+  "cur_load": 0,
+  "rej_load": 0,
+  "new_load": 0,
+  "error_msg": "",
+  "max_perf": 49.95966829375204,
+  "cur_perf": 0,
+  "cur_capacity": 0,
+  "max_capacity": 0,
+  "num_requests_working": 0,
+  "num_requests_recieved": 0,
+  "additional_disk_usage": 0.00030517578125,
+  "disk_usage": 1.2568244934082031,
+  "working_request_idxs": [],
+  "url": "https://192.234.50.233:7982"
+}
+#######################################################
+2026-11-08 04:50:51[DEBUG] Performing healthcheck on /health
+2026-11-08 04:50:51[DEBUG] Healthcheck successful
+2026-11-08 04:50:52[DEBUG] 
+#################### Worker Status ####################
+{
+  "id": 59663465,
+  "mtoken": "d09c1a8...",
+  "version": "1.1.0",
+  "loadtime": 20.681025743484497,
+  "cur_load": 0,
+  "rej_load": 0,
+  "new_load": 0,
+  "error_msg": "",
+  "max_perf": 49.95966829375204,
+  "cur_perf": 0,
+  "cur_capacity": 0,
+  "max_capacity": 0,
+  "num_requests_working": 0,
+  "num_requests_recieved": 0,
+  "additional_disk_usage": -5.7220458984375e-05,
+  "disk_usage": 1.2567672729492188,
+  "working_request_idxs": [],
+  "url": "https://192.234.50.233:7982"
+}
+#######################################################
+2026-11-08 04:51:01[DEBUG] Performing healthcheck on /health
+2026-11-08 04:51:01[DEBUG] Healthcheck successful
+2026-11-08 04:51:02[DEBUG] 
+#################### Worker Status ####################
+{
+  "id": 59663465,
+  "mtoken": "d09c1a8...",
+  "version": "1.1.0",
+  "loadtime": 20.681025743484497,
+  "cur_load": 0,
+  "rej_load": 0,
+  "new_load": 0,
+  "error_msg": "",
+  "max_perf": 49.95966829375204,
+  "cur_perf": 0,
+  "cur_capacity": 0,
+  "max_capacity": 0,
+  "num_requests_working": 0,
+  "num_requests_recieved": 0,
+  "additional_disk_usage": 0.0,
+  "disk_usage": 1.2567672729492188,
+  "working_request_idxs": [],
+  "url": "https://192.234.50.233:7982"
+}
+#######################################################
+2026-11-08 04:51:11[DEBUG] Performing healthcheck on /health
+2026-11-08 04:51:11[DEBUG] Healthcheck successful
+2026-11-08 04:51:12[DEBUG] 
+#################### Worker Status ####################
+{
+  "id": 59663465,
+  "mtoken": "d09c1a8...",
+  "version": "1.1.0",
+  "loadtime": 20.681025743484497,
+  "cur_load": 0,
+  "rej_load": 0,
+  "new_load": 0,
+  "error_msg": "",
+  "max_perf": 49.95966829375204,
+  "cur_perf": 0,
+  "cur_capacity": 0,
+  "max_capacity": 0,
+  "num_requests_working": 0,
+  "num_requests_recieved": 0,
+  "additional_disk_usage": 0.0,
+  "disk_usage": 1.2567672729492188,
+  "working_request_idxs": [],
+  "url": "https://192.234.50.233:7982"
+}
+#######################################################
+2026-11-08 04:51:21[DEBUG] Performing healthcheck on /health
+2026-11-08 04:51:21[DEBUG] Healthcheck successful
+2026-11-08 04:51:22[DEBUG] 
+#################### Worker Status ####################
+{
+  "id": 59663465,
+  "mtoken": "d09c1a8...",
+  "version": "1.1.0",
+  "loadtime": 20.681025743484497,
+  "cur_load": 0,
+  "rej_load": 0,
+  "new_load": 0,
+  "error_msg": "",
+  "max_perf": 49.95966829375204,
+  "cur_perf": 0,
+  "cur_capacity": 0,
+  "max_capacity": 0,
+  "num_requests_working": 0,
+  "num_requests_recieved": 0,
+  "additional_disk_usage": 0.0,
+  "disk_usage": 1.2567672729492188,
+  "working_request_idxs": [],
+  "url": "https://192.234.50.233:7982"
+}
+#######################################################
+2026-11-08 04:51:31[DEBUG] Performing healthcheck on /health
+2026-11-08 04:51:31[DEBUG] Healthcheck successful
+2026-11-08 04:51:32[DEBUG] 
+#################### Worker Status ####################
+{
+  "id": 59663465,
+  "mtoken": "d09c1a8...",
+  "version": "1.1.0",
+  "loadtime": 20.681025743484497,
+  "cur_load": 0,
+  "rej_load": 0,
+  "new_load": 0,
+  "error_msg": "",
+  "max_perf": 49.95966829375204,
+  "cur_perf": 0,
+  "cur_capacity": 0,
+  "max_capacity": 0,
+  "num_requests_working": 0,
+  "num_requests_recieved": 0,
+  "additional_disk_usage": 0.0,
+  "disk_usage": 1.2567672729492188,
+  "working_request_idxs": [],
+  "url": "https://192.234.50.233:7982"
+}
+#######################################################
+2026-11-08 04:51:41[DEBUG] Performing healthcheck on /health
+2026-11-08 04:51:41[DEBUG] Healthcheck successful
+2026-11-08 04:51:43[DEBUG] 
+#################### Worker Status ####################
+{
+  "id": 59663465,
+  "mtoken": "d09c1a8...",
+  "version": "1.1.0",
+  "loadtime": 20.681025743484497,
+  "cur_load": 0,
+  "rej_load": 0,
+  "new_load": 0,
+  "error_msg": "",
+  "max_perf": 49.95966829375204,
+  "cur_perf": 0,
+  "cur_capacity": 0,
+  "max_capacity": 0,
+  "num_requests_working": 0,
+  "num_requests_recieved": 0,
+  "additional_disk_usage": 0.000118255615234375,
+  "disk_usage": 1.2568855285644531,
+  "working_request_idxs": [],
+  "url": "https://192.234.50.233:7982"
+}
+#######################################################
+2026-11-08 04:51:51[DEBUG] Performing healthcheck on /health
+2026-11-08 04:51:51[DEBUG] Healthcheck successful
+2026-11-08 04:51:53[DEBUG] 
+#################### Worker Status ####################
+{
+  "id": 59663465,
+  "mtoken": "d09c1a8...",
+  "version": "1.1.0",
+  "loadtime": 20.681025743484497,
+  "cur_load": 0,
+  "rej_load": 0,
+  "new_load": 0,
+  "error_msg": "",
+  "max_perf": 49.95966829375204,
+  "cur_perf": 0,
+  "cur_capacity": 0,
+  "max_capacity": 0,
+  "num_requests_working": 0,
+  "num_requests_recieved": 0,
+  "additional_disk_usage": 0.0,
+  "disk_usage": 1.2568855285644531,
+  "working_request_idxs": [],
+  "url": "https://192.234.50.233:7982"
+}
+#######################################################
+2026-11-08 04:52:01[DEBUG] Performing healthcheck on /health
+2026-11-08 04:52:01[DEBUG] Healthcheck successful
+2026-11-08 04:52:03[DEBUG] 
+#################### Worker Status ####################
+{
+  "id": 59663465,
+  "mtoken": "d09c1a8...",
+  "version": "1.1.0",
+  "loadtime": 20.681025743484497,
+  "cur_load": 0,
+  "rej_load": 0,
+  "new_load": 0,
+  "error_msg": "",
+  "max_perf": 49.95966829375204,
+  "cur_perf": 0,
+  "cur_capacity": 0,
+  "max_capacity": 0,
+  "num_requests_working": 0,
+  "num_requests_recieved": 0,
+  "additional_disk_usage": 0.0,
+  "disk_usage": 1.2568855285644531,
+  "working_request_idxs": [],
+  "url": "https://192.234.50.233:7982"
+}
+#######################################################
+2026-11-08 04:52:11[DEBUG] Performing healthcheck on /health
+2026-11-08 04:52:11[DEBUG] Healthcheck successful
+2026-11-08 04:52:13[DEBUG] 
+#################### Worker Status ####################
+{
+  "id": 59663465,
+  "mtoken": "d09c1a8...",
+  "version": "1.1.0",
+  "loadtime": 20.681025743484497,
+  "cur_load": 0,
+  "rej_load": 0,
+  "new_load": 0,
+  "error_msg": "",
+  "max_perf": 49.95966829375204,
+  "cur_perf": 0,
+  "cur_capacity": 0,
+  "max_capacity": 0,
+  "num_requests_working": 0,
+  "num_requests_recieved": 0,
+  "additional_disk_usage": 0.0,
+  "disk_usage": 1.2568855285644531,
+  "working_request_idxs": [],
+  "url": "https://192.234.50.233:7982"
+}
+#######################################################
+2026-11-08 04:52:21[DEBUG] Performing healthcheck on /health
+2026-11-08 04:52:21[DEBUG] Healthcheck successful
+2026-11-08 04:52:24[DEBUG] 
+#################### Worker Status ####################
+{
+  "id": 59663465,
+  "mtoken": "d09c1a8...",
+  "version": "1.1.0",
+  "loadtime": 20.681025743484497,
+  "cur_load": 0,
+  "rej_load": 0,
+  "new_load": 0,
+  "error_msg": "",
+  "max_perf": 49.95966829375204,
+  "cur_perf": 0,
+  "cur_capacity": 0,
+  "max_capacity": 0,
+  "num_requests_working": 0,
+  "num_requests_recieved": 0,
+  "additional_disk_usage": 0.0,
+  "disk_usage": 1.2568855285644531,
+  "working_request_idxs": [],
+  "url": "https://192.234.50.233:7982"
+}
+#######################################################
+2026-11-08 04:52:31[DEBUG] Performing healthcheck on /health
+2026-11-08 04:52:31[DEBUG] Healthcheck successful
+2026-11-08 04:52:34[DEBUG] 
+#################### Worker Status ####################
+{
+  "id": 59663465,
+  "mtoken": "d09c1a8...",
+  "version": "1.1.0",
+  "loadtime": 20.681025743484497,
+  "cur_load": 0,
+  "rej_load": 0,
+  "new_load": 0,
+  "error_msg": "",
+  "max_perf": 49.95966829375204,
+  "cur_perf": 0,
+  "cur_capacity": 0,
+  "max_capacity": 0,
+  "num_requests_working": 0,
+  "num_requests_recieved": 0,
+  "additional_disk_usage": 0.0,
+  "disk_usage": 1.2568855285644531,
+  "working_request_idxs": [],
+  "url": "https://192.234.50.233:7982"
+}
+#######################################################
+2026-11-08 04:52:41[DEBUG] Performing healthcheck on /health
+2026-11-08 04:52:41[DEBUG] Healthcheck successful
+2026-11-08 04:52:44[DEBUG] 
+#################### Worker Status ####################
+{
+  "id": 59663465,
+  "mtoken": "d09c1a8...",
+  "version": "1.1.0",
+  "loadtime": 20.681025743484497,
+  "cur_load": 0,
+  "rej_load": 0,
+  "new_load": 0,
+  "error_msg": "",
+  "max_perf": 49.95966829375204,
+  "cur_perf": 0,
+  "cur_capacity": 0,
+  "max_capacity": 0,
+  "num_requests_working": 0,
+  "num_requests_recieved": 0,
+  "additional_disk_usage": 0.0,
+  "disk_usage": 1.2568855285644531,
+  "working_request_idxs": [],
+  "url": "https://192.234.50.233:7982"
+}
+#######################################################
+2026-11-08 04:52:51[DEBUG] Performing healthcheck on /health
+2026-11-08 04:52:51[DEBUG] Healthcheck successful
+2026-11-08 04:52:54[DEBUG] 
+#################### Worker Status ####################
+{
+  "id": 59663465,
+  "mtoken": "d09c1a8...",
+  "version": "1.1.0",
+  "loadtime": 20.681025743484497,
+  "cur_load": 0,
+  "rej_load": 0,
+  "new_load": 0,
+  "error_msg": "",
+  "max_perf": 49.95966829375204,
+  "cur_perf": 0,
+  "cur_capacity": 0,
+  "max_capacity": 0,
+  "num_requests_working": 0,
+  "num_requests_recieved": 0,
+  "additional_disk_usage": 0.0,
+  "disk_usage": 1.2568855285644531,
+  "working_request_idxs": [],
+  "url": "https://192.234.50.233:7982"
+}
+#######################################################
+2026-11-08 04:53:01[DEBUG] Performing healthcheck on /health
+2026-11-08 04:53:01[DEBUG] Healthcheck successful
+2026-11-08 04:53:05[DEBUG] 
+#################### Worker Status ####################
+{
+  "id": 59663465,
+  "mtoken": "d09c1a8...",
+  "version": "1.1.0",
+  "loadtime": 20.681025743484497,
+  "cur_load": 0,
+  "rej_load": 0,
+  "new_load": 0,
+  "error_msg": "",
+  "max_perf": 49.95966829375204,
+  "cur_perf": 0,
+  "cur_capacity": 0,
+  "max_capacity": 0,
+  "num_requests_working": 0,
+  "num_requests_recieved": 0,
+  "additional_disk_usage": 0.0,
+  "disk_usage": 1.2568855285644531,
+  "working_request_idxs": [],
+  "url": "https://192.234.50.233:7982"
+}
+#######################################################
+2026-11-08 04:53:11[DEBUG] Performing healthcheck on /health
+2026-11-08 04:53:11[DEBUG] Healthcheck successful
+2026-11-08 04:53:15[DEBUG] 
+#################### Worker Status ####################
+{
+  "id": 59663465,
+  "mtoken": "d09c1a8...",
+  "version": "1.1.0",
+  "loadtime": 20.681025743484497,
+  "cur_load": 0,
+  "rej_load": 0,
+  "new_load": 0,
+  "error_msg": "",
+  "max_perf": 49.95966829375204,
+  "cur_perf": 0,
+  "cur_capacity": 0,
+  "max_capacity": 0,
+  "num_requests_working": 0,
+  "num_requests_recieved": 0,
+  "additional_disk_usage": 3.814697265625e-06,
+  "disk_usage": 1.2568893432617188,
+  "working_request_idxs": [],
+  "url": "https://192.234.50.233:7982"
+}
+#######################################################
+2026-11-08 04:53:21[DEBUG] Performing healthcheck on /health
+2026-11-08 04:53:21[DEBUG] Healthcheck successful
+2026-11-08 04:53:25[DEBUG] 
+#################### Worker Status ####################
+{
+  "id": 59663465,
+  "mtoken": "d09c1a8...",
+  "version": "1.1.0",
+  "loadtime": 20.681025743484497,
+  "cur_load": 0,
+  "rej_load": 0,
+  "new_load": 0,
+  "error_msg": "",
+  "max_perf": 49.95966829375204,
+  "cur_perf": 0,
+  "cur_capacity": 0,
+  "max_capacity": 0,
+  "num_requests_working": 0,
+  "num_requests_recieved": 0,
+  "additional_disk_usage": 0.0,
+  "disk_usage": 1.2568893432617188,
+  "working_request_idxs": [],
+  "url": "https://192.234.50.233:7982"
+}
+#######################################################
+2026-11-08 04:53:31[DEBUG] Performing healthcheck on /health
+2026-11-08 04:53:31[DEBUG] Healthcheck successful
+2026-11-08 04:53:35[DEBUG] 
+#################### Worker Status ####################
+{
+  "id": 59663465,
+  "mtoken": "d09c1a8...",
+  "version": "1.1.0",
+  "loadtime": 20.681025743484497,
+  "cur_load": 0,
+  "rej_load": 0,
+  "new_load": 0,
+  "error_msg": "",
+  "max_perf": 49.95966829375204,
+  "cur_perf": 0,
+  "cur_capacity": 0,
+  "max_capacity": 0,
+  "num_requests_working": 0,
+  "num_requests_recieved": 0,
+  "additional_disk_usage": 0.0,
+  "disk_usage": 1.2568893432617188,
+  "working_request_idxs": [],
+  "url": "https://192.234.50.233:7982"
+}
+#######################################################
+2026-11-08 04:53:41[DEBUG] Performing healthcheck on /health
+2026-11-08 04:53:41[DEBUG] Healthcheck successful
+2026-11-08 04:53:46[DEBUG] 
+#################### Worker Status ####################
+{
+  "id": 59663465,
+  "mtoken": "d09c1a8...",
+  "version": "1.1.0",
+  "loadtime": 20.681025743484497,
+  "cur_load": 0,
+  "rej_load": 0,
+  "new_load": 0,
+  "error_msg": "",
+  "max_perf": 49.95966829375204,
+  "cur_perf": 0,
+  "cur_capacity": 0,
+  "max_capacity": 0,
+  "num_requests_working": 0,
+  "num_requests_recieved": 0,
+  "additional_disk_usage": 0.0,
+  "disk_usage": 1.2568893432617188,
+  "working_request_idxs": [],
+  "url": "https://192.234.50.233:7982"
+}
+#######################################################
+2026-11-08 04:53:51[DEBUG] Performing healthcheck on /health
+2026-11-08 04:53:51[DEBUG] Healthcheck successful
+2026-11-08 04:53:56[DEBUG] 
+#################### Worker Status ####################
+{
+  "id": 59663465,
+  "mtoken": "d09c1a8...",
+  "version": "1.1.0",
+  "loadtime": 20.681025743484497,
+  "cur_load": 0,
+  "rej_load": 0,
+  "new_load": 0,
+  "error_msg": "",
+  "max_perf": 49.95966829375204,
+  "cur_perf": 0,
+  "cur_capacity": 0,
+  "max_capacity": 0,
+  "num_requests_working": 0,
+  "num_requests_recieved": 0,
+  "additional_disk_usage": 0.0,
+  "disk_usage": 1.2568893432617188,
+  "working_request_idxs": [],
+  "url": "https://192.234.50.233:7982"
+}
+#######################################################
+2026-11-08 04:54:01[DEBUG] Performing healthcheck on /health
+2026-11-08 04:54:01[DEBUG] Healthcheck successful
+2026-11-08 04:54:06[DEBUG] 
+#################### Worker Status ####################
+{
+  "id": 59663465,
+  "mtoken": "d09c1a8...",
+  "version": "1.1.0",
+  "loadtime": 20.681025743484497,
+  "cur_load": 0,
+  "rej_load": 0,
+  "new_load": 0,
+  "error_msg": "",
+  "max_perf": 49.95966829375204,
+  "cur_perf": 0,
+  "cur_capacity": 0,
+  "max_capacity": 0,
+  "num_requests_working": 0,
+  "num_requests_recieved": 0,
+  "additional_disk_usage": 0.0,
+  "disk_usage": 1.2568893432617188,
+  "working_request_idxs": [],
+  "url": "https://192.234.50.233:7982"
+}
+#######################################################
+2026-11-08 04:54:11[DEBUG] Performing healthcheck on /health
+2026-11-08 04:54:11[DEBUG] Healthcheck successful
+2026-11-08 04:54:16[DEBUG] 
+#################### Worker Status ####################
+{
+  "id": 59663465,
+  "mtoken": "d09c1a8...",
+  "version": "1.1.0",
+  "loadtime": 20.681025743484497,
+  "cur_load": 0,
+  "rej_load": 0,
+  "new_load": 0,
+  "error_msg": "",
+  "max_perf": 49.95966829375204,
+  "cur_perf": 0,
+  "cur_capacity": 0,
+  "max_capacity": 0,
+  "num_requests_working": 0,
+  "num_requests_recieved": 0,
+  "additional_disk_usage": 0.0,
+  "disk_usage": 1.2568893432617188,
+  "working_request_idxs": [],
+  "url": "https://192.234.50.233:7982"
+}
+#######################################################
+2026-11-08 04:54:21[DEBUG] Performing healthcheck on /health
+2026-11-08 04:54:21[DEBUG] Healthcheck successful
+2026-11-08 04:54:26[DEBUG] 
+#################### Worker Status ####################
+{
+  "id": 59663465,
+  "mtoken": "d09c1a8...",
+  "version": "1.1.0",
+  "loadtime": 20.681025743484497,
+  "cur_load": 0,
+  "rej_load": 0,
+  "new_load": 0,
+  "error_msg": "",
+  "max_perf": 49.95966829375204,
+  "cur_perf": 0,
+  "cur_capacity": 0,
+  "max_capacity": 0,
+  "num_requests_working": 0,
+  "num_requests_recieved": 0,
+  "additional_disk_usage": -0.000213623046875,
+  "disk_usage": 1.2566757202148438,
+  "working_request_idxs": [],
+  "url": "https://192.234.50.233:7982"
+}
+#######################################################
+2026-11-08 04:54:31[DEBUG] Performing healthcheck on /health
+2026-11-08 04:54:31[DEBUG] Healthcheck successful
+2026-11-08 04:54:37[DEBUG] 
+#################### Worker Status ####################
+{
+  "id": 59663465,
+  "mtoken": "d09c1a8...",
+  "version": "1.1.0",
+  "loadtime": 20.681025743484497,
+  "cur_load": 0,
+  "rej_load": 0,
+  "new_load": 0,
+  "error_msg": "",
+  "max_perf": 49.95966829375204,
+  "cur_perf": 0,
+  "cur_capacity": 0,
+  "max_capacity": 0,
+  "num_requests_working": 0,
+  "num_requests_recieved": 0,
+  "additional_disk_usage": 9.1552734375e-05,
+  "disk_usage": 1.2567672729492188,
+  "working_request_idxs": [],
+  "url": "https://192.234.50.233:7982"
+}
+#######################################################
+2026-11-08 04:54:41[DEBUG] Performing healthcheck on /health
+2026-11-08 04:54:41[DEBUG] Healthcheck successful
+2026-11-08 04:54:47[DEBUG] 
+#################### Worker Status ####################
+{
+  "id": 59663465,
+  "mtoken": "d09c1a8...",
+  "version": "1.1.0",
+  "loadtime": 20.681025743484497,
+  "cur_load": 0,
+  "rej_load": 0,
+  "new_load": 0,
+  "error_msg": "",
+  "max_perf": 49.95966829375204,
+  "cur_perf": 0,
+  "cur_capacity": 0,
+  "max_capacity": 0,
+  "num_requests_working": 0,
+  "num_requests_recieved": 0,
+  "additional_disk_usage": 0.0,
+  "disk_usage": 1.2567672729492188,
+  "working_request_idxs": [],
+  "url": "https://192.234.50.233:7982"
+}
+#######################################################
+2026-11-08 04:54:51[DEBUG] Performing healthcheck on /health
+2026-11-08 04:54:51[DEBUG] Healthcheck successful
+2026-11-08 04:54:57[DEBUG] 
+#################### Worker Status ####################
+{
+  "id": 59663465,
+  "mtoken": "d09c1a8...",
+  "version": "1.1.0",
+  "loadtime": 20.681025743484497,
+  "cur_load": 0,
+  "rej_load": 0,
+  "new_load": 0,
+  "error_msg": "",
+  "max_perf": 49.95966829375204,
+  "cur_perf": 0,
+  "cur_capacity": 0,
+  "max_capacity": 0,
+  "num_requests_working": 0,
+  "num_requests_recieved": 0,
+  "additional_disk_usage": 0.0001220703125,
+  "disk_usage": 1.2568893432617188,
+  "working_request_idxs": [],
+  "url": "https://192.234.50.233:7982"
+}
+#######################################################
+2026-11-08 04:55:01[DEBUG] Performing healthcheck on /health
+2026-11-08 04:55:01[DEBUG] Healthcheck successful
+2026-11-08 04:55:08[DEBUG] 
+#################### Worker Status ####################
+{
+  "id": 59663465,
+  "mtoken": "d09c1a8...",
+  "version": "1.1.0",
+  "loadtime": 20.681025743484497,
+  "cur_load": 0,
+  "rej_load": 0,
+  "new_load": 0,
+  "error_msg": "",
+  "max_perf": 49.95966829375204,
+  "cur_perf": 0,
+  "cur_capacity": 0,
+  "max_capacity": 0,
+  "num_requests_working": 0,
+  "num_requests_recieved": 0,
+  "additional_disk_usage": 0.0,
+  "disk_usage": 1.2568893432617188,
+  "working_request_idxs": [],
+  "url": "https://192.234.50.233:7982"
+}
+#######################################################
+2026-11-08 04:55:11[DEBUG] Performing healthcheck on /health
+2026-11-08 04:55:11[DEBUG] Healthcheck successful
+2026-11-08 04:55:18[DEBUG] 
+#################### Worker Status ####################
+{
+  "id": 59663465,
+  "mtoken": "d09c1a8...",
+  "version": "1.1.0",
+  "loadtime": 20.681025743484497,
+  "cur_load": 0,
+  "rej_load": 0,
+  "new_load": 0,
+  "error_msg": "",
+  "max_perf": 49.95966829375204,
+  "cur_perf": 0,
+  "cur_capacity": 0,
+  "max_capacity": 0,
+  "num_requests_working": 0,
+  "num_requests_recieved": 0,
+  "additional_disk_usage": 0.0,
+  "disk_usage": 1.2568893432617188,
+  "working_request_idxs": [],
+  "url": "https://192.234.50.233:7982"
+}
+#######################################################
+2026-11-08 04:55:21[DEBUG] Performing healthcheck on /health
+2026-11-08 04:55:21[DEBUG] Healthcheck successful
+2026-11-08 04:55:28[DEBUG] 
+#################### Worker Status ####################
+{
+  "id": 59663465,
+  "mtoken": "d09c1a8...",
+  "version": "1.1.0",
+  "loadtime": 20.681025743484497,
+  "cur_load": 0,
+  "rej_load": 0,
+  "new_load": 0,
+  "error_msg": "",
+  "max_perf": 49.95966829375204,
+  "cur_perf": 0,
+  "cur_capacity": 0,
+  "max_capacity": 0,
+  "num_requests_working": 0,
+  "num_requests_recieved": 0,
+  "additional_disk_usage": 0.0,
+  "disk_usage": 1.2568893432617188,
+  "working_request_idxs": [],
+  "url": "https://192.234.50.233:7982"
+}
+#######################################################
+2026-11-08 04:55:31[DEBUG] Performing healthcheck on /health
+2026-11-08 04:55:31[DEBUG] Healthcheck successful
+2026-11-08 04:55:38[DEBUG] 
+#################### Worker Status ####################
+{
+  "id": 59663465,
+  "mtoken": "d09c1a8...",
+  "version": "1.1.0",
+  "loadtime": 20.681025743484497,
+  "cur_load": 0,
+  "rej_load": 0,
+  "new_load": 0,
+  "error_msg": "",
+  "max_perf": 49.95966829375204,
+  "cur_perf": 0,
+  "cur_capacity": 0,
+  "max_capacity": 0,
+  "num_requests_working": 0,
+  "num_requests_recieved": 0,
+  "additional_disk_usage": 0.0,
+  "disk_usage": 1.2568893432617188,
+  "working_request_idxs": [],
+  "url": "https://192.234.50.233:7982"
+}
+#######################################################
+2026-11-08 04:55:41[DEBUG] Performing healthcheck on /health
+2026-11-08 04:55:41[DEBUG] Healthcheck successful
+2026-11-08 04:55:48[DEBUG] 
+#################### Worker Status ####################
+{
+  "id": 59663465,
+  "mtoken": "d09c1a8...",
+  "version": "1.1.0",
+  "loadtime": 20.681025743484497,
+  "cur_load": 0,
+  "rej_load": 0,
+  "new_load": 0,
+  "error_msg": "",
+  "max_perf": 49.95966829375204,
+  "cur_perf": 0,
+  "cur_capacity": 0,
+  "max_capacity": 0,
+  "num_requests_working": 0,
+  "num_requests_recieved": 0,
+  "additional_disk_usage": 0.0,
+  "disk_usage": 1.2568893432617188,
+  "working_request_idxs": [],
+  "url": "https://192.234.50.233:7982"
+}
+#######################################################
+2026-11-08 04:55:51[DEBUG] Performing healthcheck on /health
+2026-11-08 04:55:51[DEBUG] Healthcheck successful
+2026-11-08 04:55:59[DEBUG] 
+#################### Worker Status ####################
+{
+  "id": 59663465,
+  "mtoken": "d09c1a8...",
+  "version": "1.1.0",
+  "loadtime": 20.681025743484497,
+  "cur_load": 0,
+  "rej_load": 0,
+  "new_load": 0,
+  "error_msg": "",
+  "max_perf": 49.95966829375204,
+  "cur_perf": 0,
+  "cur_capacity": 0,
+  "max_capacity": 0,
+  "num_requests_working": 0,
+  "num_requests_recieved": 0,
+  "additional_disk_usage": 0.0,
+  "disk_usage": 1.2568893432617188,
+  "working_request_idxs": [],
+  "url": "https://192.234.50.233:7982"
+}
+#######################################################
+2026-11-08 04:56:01[DEBUG] Performing healthcheck on /health
+2026-11-08 04:56:01[DEBUG] Healthcheck successful
+2026-11-08 04:56:09[DEBUG] 
+#################### Worker Status ####################
+{
+  "id": 59663465,
+  "mtoken": "d09c1a8...",
+  "version": "1.1.0",
+  "loadtime": 20.681025743484497,
+  "cur_load": 0,
+  "rej_load": 0,
+  "new_load": 0,
+  "error_msg": "",
+  "max_perf": 49.95966829375204,
+  "cur_perf": 0,
+  "cur_capacity": 0,
+  "max_capacity": 0,
+  "num_requests_working": 0,
+  "num_requests_recieved": 0,
+  "additional_disk_usage": 0.0,
+  "disk_usage": 1.2568893432617188,
+  "working_request_idxs": [],
+  "url": "https://192.234.50.233:7982"
+}
+#######################################################
+2026-11-08 04:56:11[DEBUG] Performing healthcheck on /health
+2026-11-08 04:56:11[DEBUG] Healthcheck successful
+2026-11-08 04:56:19[DEBUG] 
+#################### Worker Status ####################
+{
+  "id": 59663465,
+  "mtoken": "d09c1a8...",
+  "version": "1.1.0",
+  "loadtime": 20.681025743484497,
+  "cur_load": 0,
+  "rej_load": 0,
+  "new_load": 0,
+  "error_msg": "",
+  "max_perf": 49.95966829375204,
+  "cur_perf": 0,
+  "cur_capacity": 0,
+  "max_capacity": 0,
+  "num_requests_working": 0,
+  "num_requests_recieved": 0,
+  "additional_disk_usage": 0.0,
+  "disk_usage": 1.2568893432617188,
+  "working_request_idxs": [],
+  "url": "https://192.234.50.233:7982"
+}
+#######################################################
+2026-11-08 04:56:21[DEBUG] Performing healthcheck on /health
+2026-11-08 04:56:21[DEBUG] Healthcheck successful
+2026-11-08 04:56:29[DEBUG] 
+#################### Worker Status ####################
+{
+  "id": 59663465,
+  "mtoken": "d09c1a8...",
+  "version": "1.1.0",
+  "loadtime": 20.681025743484497,
+  "cur_load": 0,
+  "rej_load": 0,
+  "new_load": 0,
+  "error_msg": "",
+  "max_perf": 49.95966829375204,
+  "cur_perf": 0,
+  "cur_capacity": 0,
+  "max_capacity": 0,
+  "num_requests_working": 0,
+  "num_requests_recieved": 0,
+  "additional_disk_usage": 0.0,
+  "disk_usage": 1.2568893432617188,
+  "working_request_idxs": [],
+  "url": "https://192.234.50.233:7982"
+}
+#######################################################
+2026-11-08 04:56:31[DEBUG] Performing healthcheck on /health
+2026-11-08 04:56:31[DEBUG] Healthcheck successful
+2026-11-08 04:56:40[DEBUG] 
+#################### Worker Status ####################
+{
+  "id": 59663465,
+  "mtoken": "d09c1a8...",
+  "version": "1.1.0",
+  "loadtime": 20.681025743484497,
+  "cur_load": 0,
+  "rej_load": 0,
+  "new_load": 0,
+  "error_msg": "",
+  "max_perf": 49.95966829375204,
+  "cur_perf": 0,
+  "cur_capacity": 0,
+  "max_capacity": 0,
+  "num_requests_working": 0,
+  "num_requests_recieved": 0,
+  "additional_disk_usage": 0.0,
+  "disk_usage": 1.2568893432617188,
+  "working_request_idxs": [],
+  "url": "https://192.234.50.233:7982"
+}
+#######################################################
+2026-11-08 04:56:41[DEBUG] Performing healthcheck on /health
+2026-11-08 04:56:41[DEBUG] Healthcheck successful
+2026-11-08 04:56:50[DEBUG] 
+#################### Worker Status ####################
+{
+  "id": 59663465,
+  "mtoken": "d09c1a8...",
+  "version": "1.1.0",
+  "loadtime": 20.681025743484497,
+  "cur_load": 0,
+  "rej_load": 0,
+  "new_load": 0,
+  "error_msg": "",
+  "max_perf": 49.95966829375204,
+  "cur_perf": 0,
+  "cur_capacity": 0,
+  "max_capacity": 0,
+  "num_requests_working": 0,
+  "num_requests_recieved": 0,
+  "additional_disk_usage": 0.0,
+  "disk_usage": 1.2568893432617188,
+  "working_request_idxs": [],
+  "url": "https://192.234.50.233:7982"
+}
+#######################################################
+2026-11-08 04:56:51[DEBUG] Performing healthcheck on /health
+2026-11-08 04:56:51[DEBUG] Healthcheck successful
+2026-11-08 04:57:00[DEBUG] 
+#################### Worker Status ####################
+{
+  "id": 59663465,
+  "mtoken": "d09c1a8...",
+  "version": "1.1.0",
+  "loadtime": 20.681025743484497,
+  "cur_load": 0,
+  "rej_load": 0,
+  "new_load": 0,
+  "error_msg": "",
+  "max_perf": 49.95966829375204,
+  "cur_perf": 0,
+  "cur_capacity": 0,
+  "max_capacity": 0,
+  "num_requests_working": 0,
+  "num_requests_recieved": 0,
+  "additional_disk_usage": 0.0,
+  "disk_usage": 1.2568893432617188,
+  "working_request_idxs": [],
+  "url": "https://192.234.50.233:7982"
+}
+#######################################################
+2026-11-08 04:57:01[DEBUG] Performing healthcheck on /health
+2026-11-08 04:57:01[DEBUG] Healthcheck successful

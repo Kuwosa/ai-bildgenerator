@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AI Bildgenerator - Supabase & Vercel</title>
+    <title>AI Bildgenerator</title>
     <!-- Ladda Supabase JS Client -->
     <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
     <style>
@@ -30,9 +30,9 @@
     </div>
 
     <script>
-        // 1. Koppla in dina Supabase-uppgifter här (från din Supabase Dashboard -> Settings -> API)
-        const SUPABASE_URL = 'DIN_SUPABASE_URL_HÄR';
-        const SUPABASE_ANON_KEY = 'DIN_SUPABASE_ANON_KEY_HÄR';
+        // Dina riktiga Supabase-uppgifter inbakade
+        const SUPABASE_URL = 'https://nvmcqrgorswwjldlqaqi.supabase.co';
+        const SUPABASE_ANON_KEY = 'sb_publishable__Ew3Su-rdIHaXRfag7oWVg_-jWSDN-j';
         
         // Initiera Supabase-klienten
         const supabase = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
@@ -48,10 +48,10 @@
             }
 
             statusDiv.style.color = '#38bdf8';
-            statusDiv.innerText = 'Sparar till Supabase och anropar AI...';
+            statusDiv.innerText = 'Sparar till Supabase...';
 
             try {
-                // Exempel: Spara prompten till en tabell som heter 'prompts' i din Supabase-databas
+                // Försök spara till tabellen 'prompts' i din Supabase-databas
                 const { data, error } = await supabase
                     .from('prompts')
                     .insert([{ prompt_text: prompt, status: 'pending' }]);
@@ -59,12 +59,12 @@
                 if (error) throw error;
 
                 statusDiv.style.color = '#4ade80';
-                statusDiv.innerText = '✅ Prompt sparad i databasen!';
+                statusDiv.innerText = '✅ Prompt sparad i Supabase!';
                 document.getElementById('prompt').value = '';
 
             } catch (err) {
                 statusDiv.style.color = '#f87171';
-                statusDiv.innerText = '❌ Fel vid sparande: ' + err.message;
+                statusDiv.innerText = '❌ Fel: ' + err.message + ' (Har du skapat tabellen "prompts" i Supabase?)';
             }
         }
     </script>
