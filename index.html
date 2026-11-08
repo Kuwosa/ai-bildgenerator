@@ -30,11 +30,10 @@
     </div>
 
     <script>
-        // Dina riktiga Supabase-uppgifter inbakade
+        // Dina Supabase-uppgifter
         const SUPABASE_URL = 'https://nvmcqrgorswwjldlqaqi.supabase.co';
         const SUPABASE_ANON_KEY = 'sb_publishable__Ew3Su-rdIHaXRfag7oWVg_-jWSDN-j';
         
-        // Initiera Supabase-klienten
         const supabase = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
 
         async function skickaTillSupabase() {
@@ -51,7 +50,6 @@
             statusDiv.innerText = 'Sparar till Supabase...';
 
             try {
-                // Försök spara till tabellen 'prompts' i din Supabase-databas
                 const { data, error } = await supabase
                     .from('prompts')
                     .insert([{ prompt_text: prompt, status: 'pending' }]);
@@ -64,7 +62,7 @@
 
             } catch (err) {
                 statusDiv.style.color = '#f87171';
-                statusDiv.innerText = '❌ Fel: ' + err.message + ' (Har du skapat tabellen "prompts" i Supabase?)';
+                statusDiv.innerText = '❌ Fel: ' + err.message;
             }
         }
     </script>
