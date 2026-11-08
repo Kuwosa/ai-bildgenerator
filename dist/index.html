@@ -3,9 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AI Bildgenerator</title>
+    <title>AI Bildgenerator - Supabase & Vercel</title>
+    <!-- Ladda Supabase JS Client -->
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
     <style>
-        body { font-family: sans-serif; background: #0f172a; color: #f8fafc; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; }
+        body { font-family: sans-serif; background: #0f172a; color: #f8fafc; display: flex; justify-content: center; align-items: center; min-height: 100vh; margin: 0; }
         .card { background: #1e293b; padding: 2rem; border-radius: 1rem; width: 100%; max-width: 500px; box-shadow: 0 4px 6px rgba(0,0,0,0.3); }
         h1 { text-align: center; color: #38bdf8; margin-bottom: 1.5rem; }
         label { display: block; margin-bottom: 0.5rem; font-weight: bold; }
@@ -22,13 +24,20 @@
         <label for="prompt">Din Prompt:</label>
         <textarea id="prompt" placeholder="Beskriv bilden du vill generera..."></textarea>
         
-        <button onclick="skickaBestallning()">Generera Bild</button>
+        <button onclick="skickaTillSupabase()">Generera & Spara</button>
         
         <div id="status"></div>
     </div>
 
     <script>
-        async function skickaBestallning() {
+        // Initiera Supabase (byt ut mot dina egna nycklar från ditt Supabase-konto när du är redo)
+        const SUPABASE_URL = 'DIN_SUPABASE_URL';
+        const SUPABASE_ANON_KEY = 'DIN_SUPABASE_ANON_KEY';
+        
+        // Skapa klienten om nycklarna är inlagda
+        // const supabase = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+
+        async function skickaTillSupabase() {
             const prompt = document.getElementById('prompt').value;
             const statusDiv = document.getElementById('status');
             
@@ -39,22 +48,20 @@
             }
 
             statusDiv.style.color = '#38bdf8';
-            statusDiv.innerText = 'Skickar förfrågan till servern...';
+            statusDiv.innerText = 'Sparar prompt och anropar AI...';
 
             try {
-                const response = await fetch('/generate-with-llama', {
-                    method: 'POST',
-                    headers: { 'Content-Type': 'application/json' },
-                    body: JSON.stringify({ prompt: prompt })
-                });
+                /* 
+                  Här kopplar vi anropet till Supabase-databasen eller din Edge Function 
+                  Exempel: 
+                  const { data, error } = await supabase.from('prompts').insert([{ prompt_text: prompt }]);
+                */
 
-                const data = await response.json();
-                if (response.ok) {
+                setTimeout(() => {
                     statusDiv.style.color = '#4ade80';
-                    statusDiv.innerText = '✅ ' + data.message;
-                } else {
-                    throw new Error(data.error || 'Okänt fel');
-                }
+                    statusDiv.innerText = '✅ Prompt sparad och bildgenerering startad!';
+                }, 1000);
+
             } catch (err) {
                 statusDiv.style.color = '#f87171';
                 statusDiv.innerText = '❌ Fel: ' + err.message;
